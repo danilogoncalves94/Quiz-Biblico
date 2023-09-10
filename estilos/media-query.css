@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media(max-width: 768px) {
+    .foto {
+        height: 600px;
+        background: url('/imagens/pedro.jpg') no-repeat top center fixed;
+        background-size: cover;
+    }
     header {
         background-image: none;
     }
