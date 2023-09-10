@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media(max-width: 768px) {
+    header {
+        background-image: none;
+    }
+    .display-1 {
+        margin: 20px;            
+        font-size: 26px;         
+    }
+    .display-2 { 
+        margin: 0px 20px 20px 20px;           
+        font-size: 23px;         
+    }
+    .display-3 { 
+        margin: 20px;                  
+    }
+    .form-check {
+        margin: 0px 20px;
+    }
+}
