@@ -1,5 +1,13 @@
 $(document).ready(function () {
-    ScrollReveal().reveal('.display-1', {
+    ScrollReveal().reveal('.foto', {
+        origin: 'bottom',
+        distance: '50px',
+        duration: 1000,
+        delay: 1000,
+        easing: 'ease-in-out',
+        reset: false,
+    })
+    /*ScrollReveal().reveal('.display-1', {
         origin: 'left',
         distance: '50px',
         duration: 1000,
@@ -14,7 +22,7 @@ $(document).ready(function () {
         delay: 1000,
         easing: 'ease-in-out',
         reset: false,
-    })
+    })*/
     ScrollReveal().reveal('.btn', {
         origin: 'bottom',
         distance: '50px',

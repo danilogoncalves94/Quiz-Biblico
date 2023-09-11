@@ -1,8 +1,19 @@
 @charset "UTF-8";
 
+.divDaFoto {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+}
+
 header {
-    background-image: linear-gradient(to bottom, lightskyblue, white);
-    padding: 5px;
+    /*background-image: linear-gradient(to bottom, lightskyblue, white);*/
 }
 
 main {
@@ -11,14 +22,13 @@ main {
 }
 
 .display-1 {   
-    margin: 40px;   
+    margin: 0px 40px;   
     text-align: center;
-    font-size: 40px; 
-    padding: 5px;  
+    font-size: 40px;
 }
 
 .display-2 {
-    margin: 0px 40px 40px 40px;   
+    margin: 40px;   
     text-align: center;
     font-size: 30px;
 }
