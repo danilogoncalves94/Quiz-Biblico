@@ -18,6 +18,9 @@
     .form-check {
         margin: 0px 20px;
     }
+    .provas > .btn {
+        margin: 20px;
+    }
 }
 
 @media (orientation: portrait) {
