@@ -24,15 +24,30 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-        a {
+        main > a {
             margin: 40px;
         }
         .voltar {
             display: block;
             width: 100px;
+            margin: 40px;
+        }
+        footer {
+            margin: 5px;
+            text-align: center;
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.562);
+        }
+        footer > a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.562);
+        }
+        footer > a:hover {
+            text-decoration: underline;
+            color: black;
         }
     </style>
-    <title>Document</title>
+    <title>Quiz Bíblico</title>
 </head>
 <body>
     <h1 class="display-1">Escolha seu questionário</h1>
@@ -45,7 +60,10 @@
         <a href="prova6.html" class="btn btn-danger">Prova 6</a>
         <a href="prova7.html" class="btn btn-danger">Prova 7</a>
     </main>
-    <a href="../index.html" class="btn voltar mover btn-success">voltar</a>
+    <a href="../index.html" class="btn voltar voltarMenu mover btn-success">voltar</a>
+    <footer>
+        Desenvolvido por <a href="https://github.com/danilogoncalves94" target="_blank">DG</a>
+    </footer>
 </body>
 
 <script>

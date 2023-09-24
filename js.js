@@ -1,6 +1,6 @@
 $(document).ready(function () {
     ScrollReveal().reveal('.foto', {
-        origin: 'bottom',
+        origin: 'top',
         distance: '50px',
         duration: 1000,
         delay: 1000,

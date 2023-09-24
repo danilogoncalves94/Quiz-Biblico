@@ -5,12 +5,12 @@
         background-image: none;
     }*/
     .display-1 { 
-        margin: 0px 20px 20px 20px;            
-        font-size: 26px;          
+        margin: 0px 10px 20px 10px;            
+        font-size: 23px;          
     }
     .display-2 {
-        margin: 0px 20px 50px 20px;          
-        font-size: 23px;             
+        margin: 0px 10px 50px 10px;          
+        font-size: 21.5px;             
     }
     .display-3 { 
         margin: 20px;                  
@@ -21,10 +21,14 @@
 }
 
 @media (orientation: portrait) {
-    .voltar {
+    .dificuldades .btn {
+        margin: 40px 10px;
+    }
+
+    .voltarMenu {
         display: block;
         margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
