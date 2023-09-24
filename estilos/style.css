@@ -13,12 +13,12 @@ img {
 }
 
 header {
-    /*background-image: linear-gradient(to bottom, lightskyblue, white);*/
+    /*background-image: linear-gradient(to bottom, lightskyblue, white);*/   
 }
 
 main {
     opacity: 0;
-    transition: 5s;
+    transition: 1s;
 }
 
 .display-1 {   

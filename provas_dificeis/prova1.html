@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/biblia.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js.js"></script>
+    <title>Quiz Bíblico</title>
+
+    <style>
+        .voltar {
+            margin: 20px;
+            width: 100px;
+        }
+
+        .voltar:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body> 
+    <a href="escolher_provas.html" class="btn voltar btn-success">voltar</a>        
+    <main>
+        <p class="display-3">A quem Paulo chamou de 'meu companheiro de lutas'?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="a" id="Radio1">
+            <label class="form-check-label" for="Radio1">
+                Apolo
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="b" id="Radio2">
+            <label class="form-check-label" for="Radio2">
+                Arquipo
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="c" id="Radio3">
+            <label class="form-check-label" for="Radio3">
+                Áfia
+            </label>
+        </div>
+        <p class="display-3">Quais discípulos perguntaram a Jesus se podiam fazer descer fogo do céu?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="a" id="Radio4">
+            <label class="form-check-label" for="Radio4">
+                João e Tiago
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="b" id="Radio5">
+            <label class="form-check-label" for="Radio5">
+                Pedro e João
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="c" id="Radio6">
+            <label class="form-check-label" for="Radio6">
+                Tiago e Pedro
+            </label>
+        </div>
+        <p class="display-3">Qual era o nome da serpente de bronze que Moisés tinha feito?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="a" id="Radio7">
+            <label class="form-check-label" for="Radio7">
+                Aserá
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="b" id="Radio8">
+            <label class="form-check-label" for="Radio8">
+                Leviatã
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="c" id="Radio9">
+            <label class="form-check-label" for="Radio9">
+                Neustã
+            </label>
+        </div>
+        <p class="display-3">Qual era o nome babilônico de Daniel?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="a" id="Radio10">
+            <label class="form-check-label" for="Radio10">
+                Aspenaz
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="b" id="Radio11">
+            <label class="form-check-label" for="Radio11">
+                Beltessazar
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="c" id="Radio12">
+            <label class="form-check-label" for="Radio12">
+                Abede-Nego
+            </label>
+        </div>
+        <p class="display-3">Qual o nome que Jacó deu ao lugar onde sonhou com Deus?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="a" id="Radio13">
+            <label class="form-check-label" for="Radio13">
+                Be­tuel
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="b" id="Radio14">
+            <label class="form-check-label" for="Radio14">
+                Luz
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="c" id="Radio15">
+            <label class="form-check-label" for="Radio15">
+                Betel
+            </label>
+        </div>
+        <p class="display-3">Qual o livro da Bíblia que termina com um ponto de interrogação?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="a" id="Radio16">
+            <label class="form-check-label" for="Radio16">
+                Jonas
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="b" id="Radio17">
+            <label class="form-check-label" for="Radio17">
+                Joel
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="c" id="Radio18">
+            <label class="form-check-label" for="Radio18">
+                Judas
+            </label>
+        </div>
+        <p class="display-3">Qual livro se encontra no Novo Testamento?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="a" id="Radio19">
+            <label class="form-check-label" for="Radio19">
+                Sofonias
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="b" id="Radio20">
+            <label class="form-check-label" for="Radio20">
+                Filemom
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="c" id="Radio21">
+            <label class="form-check-label" for="Radio21">
+                Habacuque
+            </label>
+        </div>
+        <p class="display-3">Em quais livros da Bíblia não encontramos a palavra 'Deus'?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="a" id="Radio22">
+            <label class="form-check-label" for="Radio22">
+                Ester e Cânticos
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="b" id="Radio23">
+            <label class="form-check-label" for="Radio23">
+                Ageu e Amós
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="c" id="Radio24">
+            <label class="form-check-label" for="Radio24">
+                Oséias e Eclesiastes
+            </label>
+        </div>
+        <p class="display-3">Qual o menor livro da Bíblia?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="a" id="Radio25">
+            <label class="form-check-label" for="Radio25">
+                Judas
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="b" id="Radio26">
+            <label class="form-check-label" for="Radio26">
+                II João
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="c" id="Radio27">
+            <label class="form-check-label" for="Radio27">
+                III João
+            </label>
+        </div>
+        <p class="display-3">Na visão profética de João qual era o número de cavaleiros do Apocalipse?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="a" id="Radio28">
+            <label class="form-check-label" for="Radio28">
+                7
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="b" id="Radio29">
+            <label class="form-check-label" for="Radio29">
+                4
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="c" id="Radio30">
+            <label class="form-check-label" for="Radio30">
+                5
+            </label>
+        </div>
+        <button type="button" class="btn mover btn-success" onclick="f23()">Ver respostas</button>
+    </main>
+    <footer>
+        Desenvolvido por <a href="https://github.com/danilogoncalves94" target="_blank">DG</a>
+    </footer>
+</body>
+</script>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/biblia.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/media-query.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js.js"></script>
+    <title>Quiz Bíblico</title>
+
+    <style>
+        .voltar {
+            margin: 20px;
+            width: 100px;
+        }
+        .voltar:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body> 
+    <a href="escolher_provas.html" class="btn voltar btn-success">voltar</a>        
+    <main>
+        <p class="display-3">Quem falou com Balaão?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="a" id="Radio1">
+            <label class="form-check-label" for="Radio1">
+                Jesus
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="b" id="Radio2">
+            <label class="form-check-label" for="Radio2">
+                Jumenta
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="c" id="Radio3">
+            <label class="form-check-label" for="Radio3">
+                Demônio
+            </label>
+        </div>
+        <p class="display-3">Quantas tribos tinha em Israel?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="a" id="Radio4">
+            <label class="form-check-label" for="Radio4">
+                7
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="b" id="Radio5">
+            <label class="form-check-label" for="Radio5">
+                3
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="c" id="Radio6">
+            <label class="form-check-label" for="Radio6">
+                12
+            </label>
+        </div>
+        <p class="display-3">Qual era a menor tribo de Israel?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="a" id="Radio7">
+            <label class="form-check-label" for="Radio7">
+                Benjamim
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="b" id="Radio8">
+            <label class="form-check-label" for="Radio8">
+                Dã
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="c" id="Radio9">
+            <label class="form-check-label" for="Radio9">
+                Manassés
+            </label>
+        </div>
+        <p class="display-3">Quantas vezes o comandante Naamã mergulhou no rio Jordão?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="a" id="Radio10">
+            <label class="form-check-label" for="Radio10">
+                3 vezes
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="b" id="Radio11">
+            <label class="form-check-label" for="Radio11">
+                7 vezes
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="c" id="Radio12">
+            <label class="form-check-label" for="Radio12">
+                Não mergulhou
+            </label>
+        </div>
+        <p class="display-3">Quem escreveu os livros de Provérbios e Eclesiastes?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="a" id="Radio13">
+            <label class="form-check-label" for="Radio13">
+                Davi
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="b" id="Radio14">
+            <label class="form-check-label" for="Radio14">
+                Moisés
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="c" id="Radio15">
+            <label class="form-check-label" for="Radio15">
+                Salomão
+            </label>
+        </div>
+        <p class="display-3">"O ladrão vem apenas para roubar, matar e...</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="a" id="Radio16">
+            <label class="form-check-label" for="Radio16">
+                confundir".
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="b" id="Radio17">
+            <label class="form-check-label" for="Radio17">
+                destruir".
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="c" id="Radio18">
+            <label class="form-check-label" for="Radio18">
+                zombar".
+            </label>
+        </div>
+        <p class="display-3">O que Deus disse depois que Jesus foi batizado nas águas?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="a" id="Radio19">
+            <label class="form-check-label" for="Radio19">
+                " Jesus é o Rei dos reis".
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="b" id="Radio20">
+            <label class="form-check-label" for="Radio20">
+                "Não toques no meu ungido".
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="c" id="Radio21">
+            <label class="form-check-label" for="Radio21">
+                "Este é o meu Filho amado, em quem me comprazo".
+            </label>
+        </div>
+        <p class="display-3">Quantos mandamentos tinham as Tábuas da Lei?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="a" id="Radio22">
+            <label class="form-check-label" for="Radio22">
+                7
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="b" id="Radio23">
+            <label class="form-check-label" for="Radio23">
+                10
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="c" id="Radio24">
+            <label class="form-check-label" for="Radio24">
+                2
+            </label>
+        </div>
+        <p class="display-3">"Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna".</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="a" id="Radio25">
+            <label class="form-check-label" for="Radio25">
+                João 10:10
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="b" id="Radio26">
+            <label class="form-check-label" for="Radio26">
+                João 3:16
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="c" id="Radio27">
+            <label class="form-check-label" for="Radio27">
+                João 1:1
+            </label>
+        </div>
+        <p class="display-3">Quem foi o bandido que foi escolhido para ser liberto em vez de Jesus?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="a" id="Radio28">
+            <label class="form-check-label" for="Radio28">
+                Judas
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="b" id="Radio29">
+            <label class="form-check-label" for="Radio29">
+                Pilatos
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="c" id="Radio30">
+            <label class="form-check-label" for="Radio30">
+                Barrabás
+            </label>
+        </div>
+        <button type="button" class="btn mover btn-success" onclick="f9()">Ver respostas</button>
+    </main>
+    <footer>
+        Desenvolvido por <a href="https://github.com/danilogoncalves94" target="_blank">DG</a>
+    </footer>
+</body>
+</script>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/biblia.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/media-query.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js.js"></script>
+    <title>Quiz Bíblico</title>
+
+    <style>
+        .voltar {
+            margin: 20px;
+            width: 100px;
+        }
+        .voltar:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body> 
+    <a href="escolher_provas.html" class="btn voltar btn-success">voltar</a>        
+    <main>
+        <p class="display-3">Quem ajudou Jesus a carregar a cruz?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="a" id="Radio1">
+            <label class="form-check-label" for="Radio1">
+                João
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="b" id="Radio2">
+            <label class="form-check-label" for="Radio2">
+                Simão Cirineu
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz1" value="c" id="Radio3">
+            <label class="form-check-label" for="Radio3">
+                Timóteo
+            </label>
+        </div>
+        <p class="display-3">Antes de ser Rei, qual era o trabalho de Davi?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="a" id="Radio4">
+            <label class="form-check-label" for="Radio4">
+                Caçador
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="b" id="Radio5">
+            <label class="form-check-label" for="Radio5">
+                Pastor de ovelhas
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz2" value="c" id="Radio6">
+            <label class="form-check-label" for="Radio6">
+                Carpinteiro
+            </label>
+        </div>
+        <p class="display-3">Quem perseguiu Davi?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="a" id="Radio7">
+            <label class="form-check-label" for="Radio7">
+                Faraó
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="b" id="Radio8">
+            <label class="form-check-label" for="Radio8">
+                Nabucodonosor
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz3" value="c" id="Radio9">
+            <label class="form-check-label" for="Radio9">
+                Saul
+            </label>
+        </div>
+        <p class="display-3">Em que cidade nasceu Jesus?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="a" id="Radio10">
+            <label class="form-check-label" for="Radio10">
+                Jerusalém
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="b" id="Radio11">
+            <label class="form-check-label" for="Radio11">
+                Belém
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz4" value="c" id="Radio12">
+            <label class="form-check-label" for="Radio12">
+                Samaria
+            </label>
+        </div>
+        <p class="display-3">O que a mulher de Samaria saiu para fazer?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="a" id="Radio13">
+            <label class="form-check-label" for="Radio13">
+                Tirar água
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="b" id="Radio14">
+            <label class="form-check-label" for="Radio14">
+                Caçar
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz5" value="c" id="Radio15">
+            <label class="form-check-label" for="Radio15">
+                Colher trigo
+            </label>
+        </div>
+        <p class="display-3">Depois que Pedro negou a Jesus pela terceira vez...</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="a" id="Radio16">
+            <label class="form-check-label" for="Radio16">
+                o véu do templo se rasgou
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="b" id="Radio17">
+            <label class="form-check-label" for="Radio17">
+                o céu ficou em trevas
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz6" value="c" id="Radio18">
+            <label class="form-check-label" for="Radio18">
+                o galo cantou
+            </label>
+        </div>
+        <p class="display-3">Sansão se apaixonou por qual mulher?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="a" id="Radio19">
+            <label class="form-check-label" for="Radio19">
+                Rute
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="b" id="Radio20">
+            <label class="form-check-label" for="Radio20">
+                Dalila
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz7" value="c" id="Radio21">
+            <label class="form-check-label" for="Radio21">
+                Sara
+            </label>
+        </div>
+        <p class="display-3">Eliseu sucedeu a qual profeta?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="a" id="Radio22">
+            <label class="form-check-label" for="Radio22">
+                Zacarias
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="b" id="Radio23">
+            <label class="form-check-label" for="Radio23">
+                João Batista
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz8" value="c" id="Radio24">
+            <label class="form-check-label" for="Radio24">
+                Elias
+            </label>
+        </div>
+        <p class="display-3">Quem não foi Apóstolo?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="a" id="Radio25">
+            <label class="form-check-label" for="Radio25">
+                Pedro
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="b" id="Radio26">
+            <label class="form-check-label" for="Radio26">
+                Isaías
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz9" value="c" id="Radio27">
+            <label class="form-check-label" for="Radio27">
+                João
+            </label>
+        </div>
+        <p class="display-3">Quem escreveu Cantares?</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="a" id="Radio28">
+            <label class="form-check-label" for="Radio28">
+                Davi
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="b" id="Radio29">
+            <label class="form-check-label" for="Radio29">
+                Moisés
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="quiz10" value="c" id="Radio30">
+            <label class="form-check-label" for="Radio30">
+                Salomão
+            </label>
+        </div>
+        <button type="button" class="btn mover btn-success" onclick="f4()">Ver respostas</button>
+    </main>
+    <footer>
+        Desenvolvido por <a href="https://github.com/danilogoncalves94" target="_blank">DG</a>
+    </footer>
+</body>
+</script>
+
+</html>
