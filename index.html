@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 
     <style>
+        html {
+            min-height: 100vh;
+        }
+        body {
+            min-height: 100vh;
+            position: relative;
+        }        
         .divDaFoto {
             /*height: 100vh;*/
             display: flex;
@@ -49,7 +56,11 @@
             margin: 40px;
         }
         footer {
-            margin: 5px;
+            position: absolute;
+            bottom: -30px;
+            width: 100%;
+            padding: 5px;
+            /*margin: 5px;*/
             text-align: center;
             font-size: 11px;
             color: rgba(0, 0, 0, 0.562);
